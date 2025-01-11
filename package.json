@@ -28,7 +28,7 @@
     "figlet": "^1.8.0",
     "gradient-string": "^3.0.0",
     "inquirer": "^12.2.0",
-    "nanospinner": "^1.2.0",
+    "nanospinner": "^1.2.2",
     "open": "^7.4.2",
     "ora": "^5.4.1",
     "uuid": "^10.0.0"
