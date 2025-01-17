@@ -22,7 +22,7 @@
   "dependencies": {
     "axios": "^1.7.9",
     "boxen": "^8.0.1",
-    "chalk": "^5.4.0",
+    "chalk": "^5.4.1",
     "clear": "^0.1.0",
     "cli-spinners": "^2.9.2",
     "figlet": "^1.8.0",
