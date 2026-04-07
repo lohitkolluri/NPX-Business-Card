@@ -15,23 +15,17 @@
     "url": "https://github.com/lohitkolluri/NPX-Business-Card/issues"
   },
   "scripts": {
-    "test": "jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "pub": "npm version patch && npm publish"
   },
   "type": "module",
   "dependencies": {
-    "axios": "^1.7.9",
     "boxen": "^8.0.1",
     "chalk": "^5.4.0",
-    "clear": "^0.1.0",
-    "cli-spinners": "^2.9.2",
     "figlet": "^1.8.0",
-    "gradient-string": "^3.0.0",
     "inquirer": "^12.2.0",
     "nanospinner": "^1.2.2",
-    "open": "^7.4.2",
-    "ora": "^5.4.1",
-    "uuid": "^10.0.0"
+    "open": "^7.4.2"
   },
   "devDependencies": {
     "jest": "^29.0.0"

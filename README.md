@@ -27,6 +27,18 @@ npx lohitkolluri
 
 No installation required! Just run the command and interact with the card.
 
+Alternatively, install it globally:
+
+```bash
+npm install -g lohitkolluri
+lohitkolluri
+```
+
+### Performance & flags
+
+- `--fast` / `-f`: minimize animations for a snappier experience.
+- `--no-anim`: disable animations entirely (also used automatically in non-TTY environments).
+
 ## Technologies Used
 
 - **Node.js** - Runtime environment
@@ -51,6 +63,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Changelog
 
 ### Version 3.0.0
+
 - Reduced animation delays for better UX
 - Improved text formatting
 - Updated skill set display
